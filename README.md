@@ -38,6 +38,12 @@
   
   ---
   ## Other Resources
+  
+  - Resources: Raw data: Stations and measurements of Hawaii in format CSV
+  - Clean_Data: CSV obtained after cleaning data.
+  - images: Images
+  - hawaii.sqlite: Database obtained after reading cleaned data and mapping with ORM. Review database_engineering file.
+  
 
 
 
