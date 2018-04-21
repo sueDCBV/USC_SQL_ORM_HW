@@ -4,19 +4,14 @@
 
 <img src='images/surfs-up.jpeg' />
 
-Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii! To help with your trip planning, you decided to do some climate analysis on the area. Because you are such an awesome person, you have decided to share your ninja analytical skills with the community by providing a climate analysis api. The following outlines what you need to do.
 
-## Step 1 - Data Engineering
+## File Composition
 
-The climate data for Hawaii is provided through two CSV files. Start by using Python and Pandas to inspect the content of these files and clean the data.
-
-* Create a Jupyter Notebook file called `data_engineering.ipynb` and use this to complete all of your Data Engineering tasks.
-
-* Use Pandas to read in the measurement and station CSV files as DataFrames.
-
-* Inspect the data for NaNs and missing values. You must decide what to do with this data.
-
-* Save your cleaned CSV files with the prefix `clean_`.
+- FILE data_engineering: Contains activities of cleaning data. 
+  There are NaNs values in "prcp" column, however it's not good idea to delete all these rows because we could lost valuable data ("tobs" column). For specific metrics and charts of precipitation, we are going to filter NaN values.
+ The only data I will delete will be rows without date. But, this is not the case.
+ 
+ On the other hand, instead of deleting data, I add an autoincrement ID as primary key on Measurement table. 
 
 ---
 
