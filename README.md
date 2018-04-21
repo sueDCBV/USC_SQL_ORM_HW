@@ -1,5 +1,5 @@
 <!--lint disable no-heading-punctuation-->
-# Surfs Up!
+# SQL ORM Analysis - Hawaii Climate
 <!--lint enable no-heading-punctuation-->
 
 <img src='../images/surfs-up.jpeg' />
